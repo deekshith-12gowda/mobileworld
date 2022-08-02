@@ -19,7 +19,7 @@ public class signin {
     driver.findElement(By.xpath("//input[@placeholder='First Name']")).sendKeys("deekshith");
     driver.findElement(By.xpath("//input[@placeholder='Last Name']")).sendKeys("gowda");
     driver.findElement(By.xpath("//input[@placeholder='Enter Email']")).sendKeys("deekshith@gmail.com");
-    driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("dee@1234");
+    driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys("dee@124");
     driver.findElement(By.xpath("//input[@type='date']")).sendKeys("01-07-2022");
     driver.findElement(By.xpath("//div[@class='col-md-2']/input[@type='radio']")).click();
     driver.findElement(By.xpath("//input[@placeholder='91XXXXXXXXXX']")).sendKeys("8884833136");
